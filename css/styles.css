@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+
+.Valores {
+    display: flexbox;
+    width: 600px;
+    height: 150px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.Vision{
+    display: flexbox;
+    width: 600px;
+    height: 150px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+}
+.Metas{
+    display: flexbox;
+    width: 600px;
+    height: 150px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+}
+
+#Card1{
+    background-image:linear-gradient(to right, #5CB338, rgb(172, 217, 93) );
+}
+
+#Card2{
+    background-image:linear-gradient(to right, rgb(172, 217, 93), rgb(255, 238, 49)) ;
+}
+
+#Card3{
+    background-image:linear-gradient(to right, rgb(255, 238, 49), rgb(231, 154, 13)) ;
+}
+
+
+.d-flex{
+    background-color: #5CB338;
+
+}
+.nav:hover{
+    color: white;
+}
+.nav .nav-link:hover {
+    color: white !important; 
+}
+
+#imafon{
+    background-color: #5CB338;
+    background-size: cover; 
+  
+  /* Centra la imagen para que lo más importante no se corte */
+  background-position: center; 
+  
+  /* Evita que la imagen se duplique como mosaico */
+  background-repeat: no-repeat; 
+  
+  /* Espaciado interno para que el contenido respire */
+  padding: 125px; 
+  
+  /* Texto blanco para que contraste con fondos oscuros */
+  color: white;
+}
+#imafon2{
+    background-color: white;
+    background-size: cover; 
+  
+  /* Centra la imagen para que lo más importante no se corte */
+  background-position: center; 
+  
+  /* Evita que la imagen se duplique como mosaico */
+  background-repeat: no-repeat; 
+  
+  /* Espaciado interno para que el contenido respire */
+  padding: 125px; 
+  
+  /* Texto blanco para que contraste con fondos oscuros */
+  color: #000;
+}
+
+.titulos-seccion {
+  font-family: "Cherry Cream Soda", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+.Carrusel{
+    carousel-indicator-height:          3px;
+}
