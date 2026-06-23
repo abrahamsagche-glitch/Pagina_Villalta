@@ -30,14 +30,17 @@
 }
 
 #Card1{
+    height: 220px;
     background-image:linear-gradient(to right, #5CB338, rgb(172, 217, 93) );
 }
 
 #Card2{
+    height: 220px;
     background-image:linear-gradient(to right, rgb(172, 217, 93), rgb(255, 238, 49)) ;
 }
 
 #Card3{
+    height: 220px;
     background-image:linear-gradient(to right, rgb(255, 238, 49), rgb(231, 154, 13)) ;
 }
 
