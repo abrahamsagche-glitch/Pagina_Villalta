@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
-
 .Valores {
     display: flexbox;
     width: 600px;
@@ -50,10 +49,10 @@
 }
 
 
-.d-flex{
-    background-color: #5CB338;
-
+.nav-color{
+    background-color:#5CB338 ;
 }
+
 .nav:hover{
     color: white;
 }
@@ -62,7 +61,7 @@
 }
 
 #imafon{
-    background-color: #5CB338;
+    background-color: #ffc107;
     background-size: cover; 
   
   /* Centra la imagen para que lo más importante no se corte */
@@ -77,9 +76,9 @@
   /* Texto blanco para que contraste con fondos oscuros */
   color: white;
 }
-#imafon2{
-    background-color: white;
-    background-size: cover; 
+#imafon2 {
+  background-image: url('../images/fondo4.jpeg');
+  background-size: cover; 
   
   /* Centra la imagen para que lo más importante no se corte */
   background-position: center; 
@@ -88,10 +87,10 @@
   background-repeat: no-repeat; 
   
   /* Espaciado interno para que el contenido respire */
-  padding: 125px; 
+  padding: 200px; 
   
   /* Texto blanco para que contraste con fondos oscuros */
-  color: #000;
+  color: white;
 }
 
 .titulos-seccion {
