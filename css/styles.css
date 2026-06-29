@@ -101,3 +101,20 @@
 .Carrusel{
     carousel-indicator-height:          3px;
 }
+
+#imafon3 {
+  background-image: url('../images/herramientas.webp');
+  background-size: cover; 
+  
+  align-content: center;
+
+  background-position: center; 
+  
+  background-repeat: no-repeat; 
+
+  height: 360px;
+
+  padding: 250px; 
+  
+  color: white;
+}
