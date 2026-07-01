@@ -61,7 +61,7 @@
 }
 
 #imafon{
-    background-color: #ffc107;
+    background-image: linear-gradient(to right, rgb(255, 238, 49), rgb(231, 154, 13));
     background-size: cover; 
   
   /* Centra la imagen para que lo más importante no se corte */
@@ -71,7 +71,7 @@
   background-repeat: no-repeat; 
   
   /* Espaciado interno para que el contenido respire */
-  padding: 125px; 
+  padding: 50px; 
   
   /* Texto blanco para que contraste con fondos oscuros */
   color: white;
@@ -112,9 +112,30 @@
   
   background-repeat: no-repeat; 
 
-  height: 360px;
+  height: 300px;
 
   padding: 250px; 
   
   color: white;
+}
+
+.Carrousel{
+    height: 200px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tarjeta-form{
+    border: 2px solid #D2DCB6;
+    border-radius: 20px;
+
+    background-color: #F1F3E0;
+    width: 500px;
+}
+.form1{
+    display: flex;
+    justify-content: center;
 }
