@@ -28,8 +28,14 @@
     </div>
 </nav>
 <section >
+  <figure class="text-center m-3">
+    <blockquote class="blockquote">
+      <h1>CONTACTANOS</h1>
+    </blockquote>
+  </figure>
+
   <div class = "form1 p-3 m-2">
-    <form action="" class="tarjeta-form">
+    <form action="" class="tarjeta-form" method="post">
       <div class="m-2">
         <label for="nombre" class="form-label">Nombre</label>
         <input type="text" id="nombre" name="nombre" placeholder="Miguel..." class="form-control">
@@ -37,15 +43,18 @@
 
       <div class="p-2">
         <label for="correo">Correo Electrónico</label>
-        <input type="text" id="correo" placeholder="tucorreo@gmail.com" class="form-control">
+        <input type="text" id="correo" placeholder="tucorreo@gmail.com" class="form-control" name="correo">
       </div>
 
 
       <div class="m-2">
         <label for="comentario">Dejanos tu comentario</label>
-        <input type="text" id="comentario" placeholder="Excelente servicio..." class="form-control">
+        <input type="text" id="comentario" placeholder="Excelente servicio..." class="form-control" name="comentario">
       </div>
 
+      <div class="m-2">
+        <button type="submit" class="btn btn-outline-primary Benviar">Envíar</button>
+      </div>
 
 
     </form>

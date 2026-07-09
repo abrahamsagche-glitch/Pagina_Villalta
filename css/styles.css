@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+
 .Valores {
     display: flexbox;
     width: 600px;
@@ -123,7 +124,8 @@
     height: 200px;
     padding: 20px;
     display: flex;
-    align-items: center;
+    align-items:center ;
+    align-content: center;
     justify-content: center;
     
 }
@@ -138,4 +140,14 @@
 .form1{
     display: flex;
     justify-content: center;
+}
+
+.btn.Benviar{
+  --bs-btn-color: #7f924e;            /* El color que tú quieras (ej: Naranja) */
+  --bs-btn-border-color: #7f924e;
+
+  --bs-btn-hover-color: #F1F3E0;      
+  --bs-btn-hover-bg: #7f924e;         
+  --bs-btn-hover-border-color: #7f924e; 
+
 }
